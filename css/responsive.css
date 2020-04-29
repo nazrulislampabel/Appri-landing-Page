@@ -1,0 +1,210 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Lg desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .mean-menu ul li {
+        margin: 0 10px
+    }
+
+    .slider-height {
+        height: 1000px;
+        background-position: center center;
+    }
+
+    .shape-2 {
+        bottom: 14%;
+        left: 60%;
+    }
+
+    .brand-title h2 {
+        padding: 0 185px;
+    }
+
+
+    .news-blog {
+        padding: 40px 15px;
+        background: #ffff;
+        margin-top: -60px;
+    }
+}
+
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .slider-height {
+        height: 950px;
+        background-position: bottom;
+    }
+
+    .shape-2 {
+        bottom: 14%;
+        left: 52%;
+    }
+
+    .shape-1 {
+        top: 13%;
+        left: 10%;
+    }
+
+    .slider-content-space {
+        padding-top: 250px;
+    }
+
+    .how-work-text {
+        padding: 20px 0;
+    }
+
+    .brand-title h2 {
+        padding: 0 60px;
+    }
+
+    .news-blog {
+
+        padding: 40px 20px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .slider-content-space {
+        padding-top: 170px;
+    }
+
+    .slider-text h2 {
+        font-size: 36px;
+    }
+
+    .shape-wrapper {
+        display: none;
+    }
+
+    .slider-text p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .slider-btn a {
+        margin-bottom: 10px;
+    }
+
+    .slider-height {
+        height: 980px;
+        background-position: bottom center;
+    }
+
+    .single-fact {
+        position: relative;
+        padding-bottom: 25px;
+
+    }
+
+    .features-area {
+        padding-top: 30px;
+    }
+
+    .section-title {
+        padding: 0 20px;
+    }
+
+    .section-title h2 {
+        font-size: 25px;
+    }
+
+    .section-title p {
+        margin: 0;
+        font-size: 18px;
+    }
+
+    .video-wrapper {
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .brand-title h2 {
+        padding: 0 0px;
+        font-size: 28px;
+    }
+
+    .test-img-item img {
+        display: block;
+        margin: 0 160px;
+    }
+
+    .testimonial-heading h2 {
+        font-size: 40px;
+    }
+
+    .test-item p {
+        font-size: 18px;
+        line-height: 34px;
+    }
+
+    .screenshot-area {
+        padding-top: 50px;
+    }
+
+    .faq-area {
+        padding-top: 0px;
+    }
+
+    .brand-title h2 {
+        font-size: 25px
+    }
+
+    .testimonial-img-active {
+        width: 100%;
+    }
+
+    .single-fact::after {
+        display: none;
+    }
+
+    .subscribe-space {
+        text-align: center;
+        padding: 38px 20px;
+        border-radius: 30px;
+    }
+
+    .subscribe-form button {
+        top: 6px;
+        right: 5px;
+        padding: 20px 20px;
+        font-size: 15px;
+    }
+
+    .subscribe-title {
+        padding-bottom: 20px;
+    }
+
+    .available-text {
+        padding-bottom: 20px;
+    }
+
+    .available-text h2 {
+        font-size: 35px;
+    }
+
+    .subscribe-title h3 {
+        font-size: 30px;
+    }
+
+    .available-btn a {
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+}
+
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .container {
+        width: 450px
+    }
+
+}
